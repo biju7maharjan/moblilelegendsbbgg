@@ -1,0 +1,63 @@
+{
+  "siteInfo": {
+    "title": "Mobile Legends: Bang Bang Heroes Database",
+    "description": "The ultimate resource for MLBB players. Master every hero, discover new strategies, and dominate the Land of Dawn.",
+    "stats": {
+      "heroCount": 130,
+      "skinCount": 1021,
+      "roleCount": 6
+    }
+  },
+  "features": [
+    {
+      "title": "Detailed Hero Info",
+      "description": "Comprehensive statistics, abilities, and lore for every hero in the MLBB universe.",
+      "highlights": ["Skills & Builds", "Role Analysis", "Counter Picks"],
+      "icon": "hero"
+    },
+    {
+      "title": "Skin Gallery", 
+      "description": "Browse through all available skins and exclusive skin series with high-quality previews.",
+      "highlights": ["Skin Series", "Exclusive Previews", "Collection Stats"],
+      "icon": "skin"
+    },
+    {
+      "title": "Voice Dialogues",
+      "description": "Listen to unique voice lines and dialogues for each hero in multiple languages.",
+      "highlights": ["Voice Lines", "Battle Quotes", "Multi-language"],
+      "icon": "voice"
+    },
+    {
+      "title": "Dynamic Themes",
+      "description": "Experience immersive role-based themes that change based on the hero you're viewing.",
+      "highlights": ["Role Colors", "Animated BG", "Custom Themes"],
+      "icon": "theme"
+    }
+  ],
+  "featuredHeroes": [
+    {
+      "name": "Alucard",
+      "role": "Fighter",
+      "description": "The Demon Hunter who seeks vengeance with his massive sword.",
+      "image": "assets/heroes/alucard/card-image.jpg"
+    },
+    {
+      "name": "Miya",
+      "role": "Marksman", 
+      "description": "The Moon Elf Archer protecting her tribe with precise arrows.",
+      "image": "miya.png"
+    },
+    {
+      "name": "Tigreal",
+      "role": "Tank",
+      "description": "The Holy Knight defending the Moniyan Empire with unwavering loyalty.",
+      "image": "tigreal.png"
+    },
+    {
+      "name": "Eudora",
+      "role": "Mage",
+      "description": "The Lightning Sorceress commanding elemental forces with cheerful power.",
+      "image": "eudora.png"
+    }
+  ]
+}
