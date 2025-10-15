@@ -24,10 +24,10 @@
     --danger: #ef4444;
 
     /* Role Colors */
-    --tank-color: #3498db;
+    --tank-color: #f1c40f;
     --fighter-color: #e74c3c;
     --assassin-color: #9b59b6;
-    --mage-color: #f1c40f;
+    --mage-color: #3498db;
     --marksman-color: #2ecc71;
     --support-color: #1abc9c;
 
@@ -627,9 +627,9 @@ h6 {
 }
 
 .role-badge.tank {
-    background: rgba(52, 152, 219, 0.2);
+    background: rgba(241, 196, 15, 0.2);
     color: var(--tank-color);
-    border: 1px solid rgba(52, 152, 219, 0.5);
+    border: 1px solid rgba(241, 196, 15, 0.5);
 }
 
 .role-badge.fighter {
@@ -645,9 +645,9 @@ h6 {
 }
 
 .role-badge.mage {
-    background: rgba(241, 196, 15, 0.2);
+    background: rgba(52, 152, 219, 0.2);
     color: var(--mage-color);
-    border: 1px solid rgba(241, 196, 15, 0.5);
+    border: 1px solid rgba(52, 152, 219, 0.5);
 }
 
 .role-badge.marksman {
@@ -1295,6 +1295,7 @@ h6 {
     height: 400px;
     object-fit: cover;
     display: block;
+    object-position: left;
 }
 
 .skin-info {
@@ -1348,9 +1349,9 @@ h6 {
 } */
 
 .rarity-badge.special {
-    background: 
-        linear-gradient(135deg, 
-            rgba(0, 229, 255, 0.152) 0%, 
+    background:
+        linear-gradient(135deg,
+            rgba(0, 229, 255, 0.152) 0%,
             rgba(69, 246, 255, 0.25) 50%,
             rgba(0, 229, 255, 0.152) 100%);
     color: rgb(69, 246, 255);
@@ -1358,14 +1359,14 @@ h6 {
     position: relative;
     overflow: hidden;
     display: inline-block;
-    
-    box-shadow: 
+
+    box-shadow:
         0 0 20px rgba(69, 246, 255, 0.4),
         inset 0 0 20px rgba(255, 255, 255, 0.1);
-    
+
     text-shadow: 0 0 8px rgba(69, 246, 255, 0.6);
     font-weight: 600;
-    
+
     /* Single gentle pulse */
     animation: gentlePulse 3s ease-in-out infinite;
 }
@@ -1377,24 +1378,25 @@ h6 {
     left: -100%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.15),
-        transparent
-    );
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.15),
+            transparent);
     transform: skewX(-15deg);
     animation: gentleShine 8s ease-in-out infinite;
 }
 
 @keyframes gentlePulse {
-    0%, 100% {
-        box-shadow: 
+
+    0%,
+    100% {
+        box-shadow:
             0 0 20px rgba(69, 246, 255, 0.4),
             inset 0 0 20px rgba(255, 255, 255, 0.1);
     }
+
     50% {
-        box-shadow: 
+        box-shadow:
             0 0 30px rgba(69, 246, 255, 0.6),
             inset 0 0 25px rgba(255, 255, 255, 0.15);
     }
@@ -1404,9 +1406,11 @@ h6 {
     0% {
         left: -100%;
     }
+
     20% {
         left: 100%;
     }
+
     100% {
         left: 100%;
     }
@@ -1436,7 +1440,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
+    background-image:
         radial-gradient(circle at 20% 30%, white 0.5px, transparent 0.5px),
         radial-gradient(circle at 80% 20%, white 1px, transparent 1px),
         radial-gradient(circle at 40% 70%, white 0.5px, transparent 0.5px),
@@ -1448,10 +1452,23 @@ h6 {
 }
 
 @keyframes gentleTwinkle {
-    0%, 100% { opacity: 0.1; }
-    25% { opacity: 0.8; }
-    50% { opacity: 0.2; }
-    75% { opacity: 0.6; }
+
+    0%,
+    100% {
+        opacity: 0.1;
+    }
+
+    25% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
 }
 
 /* .rarity-badge.epic {
@@ -1527,47 +1544,47 @@ h6 {
 } */
 
 .rarity-badge.epic {
-    background: 
+    background:
         /* Base gradient */
-        linear-gradient(135deg, 
-            rgba(145, 27, 192, 0.3) 0%, 
+        linear-gradient(135deg,
+            rgba(145, 27, 192, 0.3) 0%,
             rgba(142, 68, 173, 0.4) 30%,
             rgba(114, 0, 163, 0.3) 70%,
             rgba(93, 24, 120, 0.3) 100%),
         /* Energy core */
-        radial-gradient(circle at 30% 30%, 
-            rgba(87, 8, 119, 0.164) 0%, 
+        radial-gradient(circle at 30% 30%,
+            rgba(87, 8, 119, 0.164) 0%,
             rgba(112, 32, 144, 0.3) 30%,
             transparent 70%),
         /* Particle layer */
         radial-gradient(circle at 70% 20%, rgba(83, 0, 172, 0.3) 2px, transparent 3px),
         radial-gradient(circle at 20% 80%, rgba(46, 0, 77, 0.4) 1px, transparent 2px),
         radial-gradient(circle at 80% 70%, rgba(166, 0, 255, 0.2) 3px, transparent 4px);
-    
+
     color: rgb(35, 0, 59);
     border: 1px solid rgba(153, 0, 255, 0.231);
     position: relative;
     overflow: hidden;
     display: inline-block;
-    
+
     /* Multiple glowing shadows */
-    box-shadow: 
+    box-shadow:
         0 0 15px rgba(155, 89, 182, 0.6),
         0 0 30px rgba(142, 68, 173, 0.4),
         inset 0 0 25px rgba(255, 255, 255, 0.2),
         0 0 50px rgba(155, 89, 182, 0.3);
-    
+
     /* Text effects */
-    text-shadow: 
+    text-shadow:
         0 0 10px rgba(255, 255, 255, 0.8),
         0 0 20px rgba(155, 89, 182, 0.6),
         0 0 30px rgba(142, 68, 173, 0.4);
-    
+
     font-weight: bold;
     letter-spacing: 1px;
-    
+
     /* Animations */
-    animation: 
+    animation:
         epicFloat 4s ease-in-out infinite,
         epicPulse 3s ease-in-out infinite;
 }
@@ -1580,14 +1597,12 @@ h6 {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(
-        45deg,
-        transparent 0%,
-        rgba(204, 0, 255, 0.218) 45%,
-        rgba(175, 16, 203, 0.456) 50%,
-        rgba(144, 5, 160, 0.1) 55%,
-        transparent 100%
-    );
+    background: linear-gradient(45deg,
+            transparent 0%,
+            rgba(204, 0, 255, 0.218) 45%,
+            rgba(175, 16, 203, 0.456) 50%,
+            rgba(144, 5, 160, 0.1) 55%,
+            transparent 100%);
     transform: rotate(45deg);
     animation: epicShine 4s ease-in-out infinite;
     opacity: 0;
@@ -1601,7 +1616,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
+    background-image:
         radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.8) 2px, transparent 3px),
         radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.6) 1px, transparent 2px),
         radial-gradient(circle at 40% 70%, rgba(255, 255, 255, 0.7) 3px, transparent 4px),
@@ -1618,17 +1633,20 @@ h6 {
 
 /* Outer glow using box-shadow animation */
 @keyframes epicFloat {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0px);
-        box-shadow: 
+        box-shadow:
             0 0 15px rgba(155, 89, 182, 0.6),
             0 0 30px rgba(142, 68, 173, 0.4),
             inset 0 0 25px rgba(255, 255, 255, 0.2),
             0 0 50px rgba(155, 89, 182, 0.3);
     }
+
     50% {
         transform: translateY(-2px);
-        box-shadow: 
+        box-shadow:
             0 0 25px rgba(155, 89, 182, 0.8),
             0 0 45px rgba(142, 68, 173, 0.6),
             inset 0 0 35px rgba(255, 255, 255, 0.3),
@@ -1639,18 +1657,23 @@ h6 {
 
 /* Background pulse animation */
 @keyframes epicPulse {
-    0%, 100% {
+
+    0%,
+    100% {
         background-size: 100% 100%, 100% 100%, 200% 200%;
         background-position: 0% 0%, 0% 0%, 0% 0%;
     }
+
     25% {
         background-size: 120% 120%, 110% 110%, 200% 200%;
         background-position: 50% 50%, 30% 30%, 25% 25%;
     }
+
     50% {
         background-size: 100% 100%, 120% 120%, 200% 200%;
         background-position: 100% 100%, 70% 70%, 50% 50%;
     }
+
     75% {
         background-size: 110% 110%, 100% 100%, 200% 200%;
         background-position: 50% 50%, 40% 40%, 75% 75%;
@@ -1659,13 +1682,17 @@ h6 {
 
 /* Shimmer effect */
 @keyframes epicShine {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0;
         transform: rotate(45deg) translateX(-100%) translateY(-100%);
     }
+
     25% {
         opacity: 0.8;
     }
+
     50% {
         opacity: 0.4;
         transform: rotate(45deg) translateX(100%) translateY(100%);
@@ -1678,20 +1705,25 @@ h6 {
         background-position: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
         opacity: 0.3;
     }
+
     20% {
         opacity: 0.6;
     }
+
     40% {
         background-position: 20% 40%, 60% 20%, 40% 60%, 70% 30%, 30% 70%, 80% 20%, 20% 80%, 90% 10%;
         opacity: 0.4;
     }
+
     60% {
         opacity: 0.7;
     }
+
     80% {
         background-position: 40% 80%, 80% 40%, 60% 80%, 90% 30%, 50% 90%, 95% 20%, 30% 95%, 98% 10%;
         opacity: 0.5;
     }
+
     100% {
         background-position: 50% 100%, 100% 50%, 80% 100%, 100% 40%, 70% 100%, 100% 30%, 40% 100%, 100% 20%;
         opacity: 0.3;
@@ -1725,24 +1757,24 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
+    background:
         /* Lightning bolt patterns */
-        linear-gradient(90deg, 
-            transparent 0%, 
-            rgba(255,255,255,0.9) 10%,
+        linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.9) 10%,
             transparent 20%,
             transparent 40%,
-            rgba(255,255,255,0.7) 50%,
+            rgba(255, 255, 255, 0.7) 50%,
             transparent 60%,
             transparent 80%,
-            rgba(255,255,255,0.8) 90%,
+            rgba(255, 255, 255, 0.8) 90%,
             transparent 100%),
-        linear-gradient(45deg, 
+        linear-gradient(45deg,
             transparent 0%,
-            rgba(255,255,255,0.6) 5%,
+            rgba(255, 255, 255, 0.6) 5%,
             transparent 10%,
             transparent 30%,
-            rgba(255,255,255,0.7) 40%,
+            rgba(255, 255, 255, 0.7) 40%,
             transparent 50%);
     background-size: 200% 200%, 150% 150%;
     opacity: 0;
@@ -1758,10 +1790,10 @@ h6 {
     left: -5px;
     right: -5px;
     bottom: -5px;
-    background: linear-gradient(45deg, 
-        rgba(241, 196, 15, 0.8),
-        rgba(255, 255, 255, 0.9),
-        rgba(241, 196, 15, 0.8));
+    background: linear-gradient(45deg,
+            rgba(241, 196, 15, 0.8),
+            rgba(255, 255, 255, 0.9),
+            rgba(241, 196, 15, 0.8));
     border-radius: inherit;
     z-index: -1;
     opacity: 0;
@@ -1770,49 +1802,60 @@ h6 {
 }
 
 @keyframes electricStorm {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0;
         background-position: -100% -100%, -100% -100%;
         filter: blur(0.5px) brightness(1);
     }
+
     2% {
         opacity: 0.9;
         background-position: 0% 0%, 0% 0%;
         filter: blur(0.5px) brightness(3);
     }
+
     4% {
         opacity: 0.3;
         background-position: 10% 10%, 5% 5%;
         filter: blur(0.5px) brightness(2);
     }
+
     6% {
         opacity: 0.7;
         background-position: 20% 20%, 15% 15%;
         filter: blur(0.5px) brightness(2.5);
     }
+
     8% {
         opacity: 0;
         background-position: 30% 30%, 25% 25%;
         filter: blur(0.5px) brightness(1);
     }
+
     50% {
         opacity: 0;
     }
+
     52% {
         opacity: 0.8;
         background-position: 50% 50%, 45% 45%;
         filter: blur(0.5px) brightness(3);
     }
+
     54% {
         opacity: 0.2;
         background-position: 55% 55%, 50% 50%;
         filter: blur(0.5px) brightness(1.8);
     }
+
     56% {
         opacity: 0.6;
         background-position: 60% 60%, 55% 55%;
         filter: blur(0.5px) brightness(2.2);
     }
+
     58% {
         opacity: 0;
         background-position: 70% 70%, 65% 65%;
@@ -1821,10 +1864,13 @@ h6 {
 }
 
 @keyframes electricAura {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0;
         transform: scale(1);
     }
+
     50% {
         opacity: 0.3;
         transform: scale(1.05);
@@ -1836,13 +1882,16 @@ h6 {
 }
 
 @keyframes legendGlow {
-    0%, 100% {
-        box-shadow: 
+
+    0%,
+    100% {
+        box-shadow:
             0 0 15px rgba(241, 196, 15, 0.4),
             0 0 30px rgba(241, 196, 15, 0.2);
     }
+
     50% {
-        box-shadow: 
+        box-shadow:
             0 0 25px rgba(241, 196, 15, 0.7),
             0 0 50px rgba(241, 196, 15, 0.4),
             0 0 75px rgba(241, 196, 15, 0.2);
@@ -2377,7 +2426,7 @@ h6 {
 
 .tier-s {
     background: rgba(241, 196, 15, 0.2);
-    color: var(--mage-color);
+    color: var(--tank-color);
     border: 1px solid rgba(241, 196, 15, 0.5);
 }
 
@@ -2388,8 +2437,9 @@ h6 {
 }
 
 .tier-b {
+
     background: rgba(52, 152, 219, 0.2);
-    color: var(--tank-color);
+    color: var(--mage-color);
     border: 1px solid rgba(52, 152, 219, 0.5);
 }
 
@@ -2656,6 +2706,48 @@ h6 {
 
     .builds-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-main img {
+        height: 375px;
+    }
+
+    .hero-detail-image img {
+        height: 375px;
+    }
+
+    .skin-info {
+        padding: 1rem;
+    }
+
+    .rarity-badge {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-main img {
+        height: 200px;
+    }
+
+    .hero-detail-image img {
+        height: 150px;
+    }
+
+    .skin-info h3 {
+        font-size: 0.8rem;
+        margin-bottom: 0rem;
+    }
+
+    .skin-info p {
+        margin-bottom: 0rem;
+        font-size: 0.7rem;
+    }
+
+    .rarity-badge {
+        font-size: 0.6rem;
     }
 }
 
