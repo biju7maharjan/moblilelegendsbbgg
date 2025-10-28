@@ -192,7 +192,7 @@
             ],
             "skins": [
                 {
-                    "name": "Default",
+                    "name": "Moonlight Archer",
                     "series": "Base",
                     "rarity": "Basic",
                     "price": "Free",
@@ -202,12 +202,12 @@
                     ],
                     "description": "Miya's original appearance as the Moon Elf archer.",
                     "image": "assets/heroes/miya/gallery/default.jpg",
-                    "thumbnail": "assets/heroes/miya/gallery/thumb-default.jpg"
+                    "thumbnail": "assets/heroes/miya/gallery/default.jpg"
                 },
                 {
                     "name": "Suzuhime",
-                    "series": "Epic",
-                    "rarity": "Epic",
+                    "series": "Special",
+                    "rarity": "Special",
                     "price": "899 Diamonds",
                     "releaseDate": "2017-08-15",
                     "features": [
@@ -217,21 +217,143 @@
                     ],
                     "description": "A Japanese-themed skin that transforms Miya into a graceful geisha.",
                     "image": "assets/heroes/miya/gallery/suzuhime.jpg",
-                    "thumbnail": "assets/heroes/miya/gallery/thumb-suzuhime.jpg"
+                    "thumbnail": "assets/heroes/miya/gallery/suzuhime.jpg"
                 },
                 {
-                    "name": "Captain Pink",
+                    "name": "Modena Butterfly",
+                    "series": "Legend",
+                    "rarity": "Legend",
+                    "price": "200 magic core",
+                    "releaseDate": "2017-08-15",
+                    "features": [
+                        "Custom Skill Effects",
+                        "Unique Recall Animation",
+                        "Special Voice Lines"
+                    ],
+                    "description": "A Japanese-themed skin that transforms Miya into a graceful geisha.",
+                    "image": "assets/heroes/miya/gallery/modena_butterfly.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/modena_butterfly.jpg"
+                },
+                {
+                    "name": "Captain Thorns",
                     "series": "Starlight",
-                    "rarity": "Elite",
+                    "rarity": "Starlight",
                     "price": "Starlight Member",
                     "releaseDate": "2018-05-20",
                     "features": [
                         "Enhanced Skill Effects",
                         "Special Display Scene"
                     ],
-                    "description": "A cute and colorful skin with pink-themed effects.",
-                    "image": "assets/heroes/miya/gallery/captain-pink.jpg",
-                    "thumbnail": "assets/heroes/miya/gallery/thumb-captain-pink.jpg"
+                    "description": "A cute and colorful skin with green-themed effects.",
+                    "image": "assets/heroes/miya/gallery/captain_thorns.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/captain_thorns.jpg"
+                },
+                {
+                    "name": "Honor",
+                    "series": "Limited",
+                    "rarity": "Special",
+                    "price": "Starlight Member",
+                    "releaseDate": "2018-05-20",
+                    "features": [
+                        "Enhanced Skill Effects",
+                        "Special Display Scene"
+                    ],
+                    "description": "This skin came out in the name of Honor Phone",
+                    "image": "assets/heroes/miya/gallery/honor.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/honor.jpg"
+                },
+                {
+                    "name": "Christmas Carnival",
+                    "series": "Luckybox",
+                    "rarity": "Epic",
+                    "price": "Starlight Member",
+                    "releaseDate": "2018-05-20",
+                    "features": [
+                        "Enhanced Skill Effects",
+                        "Special Display Scene"
+                    ],
+                    "description": "This skin came out for christmas",
+                    "image": "assets/heroes/miya/gallery/christmas_carnival.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/christmas_carnival.jpg"
+                },
+                {
+                    "name": "Sweet Fantasy",
+                    "series": "Valentine",
+                    "rarity": "Special",
+                    "price": "Starlight Member",
+                    "releaseDate": "2018-05-20",
+                    "features": [
+                        "Enhanced Skill Effects",
+                        "Special Display Scene"
+                    ],
+                    "description": "This skin came out for christmas",
+                    "image": "assets/heroes/miya/gallery/sweet_fantasy.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/sweet_fantasy.jpg"
+                },
+                {
+                    "name": "Jungle Ranger",
+                    "series": "Base",
+                    "rarity": "Basic",
+                    "price": "Free",
+                    "releaseDate": "2016-11-08",
+                    "features": [
+                        "Standard Effects"
+                    ],
+                    "description": "Miya's original appearance as the Moon Elf archer.",
+                    "image": "assets/heroes/miya/gallery/jungle_ranger.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/jungle_ranger.jpg"
+                },
+                {
+                    "name": "Moon Priestess",
+                    "series": "Anniversary",
+                    "rarity": "Basic",
+                    "price": "Free",
+                    "releaseDate": "2016-11-08",
+                    "features": [
+                        "Standard Effects"
+                    ],
+                    "description": "Miya's original appearance as the Moon Elf archer.",
+                    "image": "assets/heroes/miya/gallery/moon_priestess.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/moon_priestess.jpg"
+                },
+                {
+                    "name": "Doom Catalyst",
+                    "series": "Collector",
+                    "rarity": "Collector",
+                    "price": "Free",
+                    "releaseDate": "2016-11-08",
+                    "features": [
+                        "Standard Effects"
+                    ],
+                    "description": "Miya's original appearance as the Moon Elf archer.",
+                    "image": "assets/heroes/miya/gallery/doon_catalyst.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/doon_catalyst.jpg"
+                },
+                {
+                    "name": "Atomic Pop Miya",
+                    "series": "Atomic Pop",
+                    "rarity": "Epic",
+                    "price": "Free",
+                    "releaseDate": "2016-11-08",
+                    "features": [
+                        "Standard Effects"
+                    ],
+                    "description": "Miya's original appearance as the Moon Elf archer.",
+                    "image": "assets/heroes/miya/gallery/atomic_pop.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/atomic_pop.jpg"
+                },
+                {
+                    "name": "Nightowl Huntress",
+                    "series": "Starlight",
+                    "rarity": "Starlight",
+                    "price": "Free",
+                    "releaseDate": "2016-11-08",
+                    "features": [
+                        "Standard Effects"
+                    ],
+                    "description": "Miya's original appearance as the Moon Elf archer.",
+                    "image": "assets/heroes/miya/gallery/nightowl_huntress.jpg",
+                    "thumbnail": "assets/heroes/miya/gallery/nightowl_huntress.jpg"
                 }
             ],
             "dialogues": [

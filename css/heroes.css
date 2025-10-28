@@ -1561,7 +1561,7 @@ h6 {
         radial-gradient(circle at 20% 80%, rgba(46, 0, 77, 0.4) 1px, transparent 2px),
         radial-gradient(circle at 80% 70%, rgba(166, 0, 255, 0.2) 3px, transparent 4px);
 
-    color: rgb(35, 0, 59);
+    color: rgb(104, 14, 165);
     border: 1px solid rgba(153, 0, 255, 0.231);
     position: relative;
     overflow: hidden;
@@ -1742,7 +1742,7 @@ h6 {
 
 .rarity-badge.legend {
     background: rgba(241, 196, 15, 0.2);
-    color: var(--mage-color);
+    color: var(--tank-color);
     border: 1px solid rgba(241, 196, 15, 0.5);
     position: relative;
     overflow: hidden;
